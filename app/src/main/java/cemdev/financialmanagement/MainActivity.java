@@ -8,6 +8,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
+import android.app.Activity;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.os.Bundle;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,4 +49,17 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void showMessage(View v){
+            if(v.getId() == R.id.imageButton)
+            {
+                MessageBox("Hello World");
+            }
+        }
+
+        public void MessageBox(String message)
+        {
+            Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+        }
+
 }
