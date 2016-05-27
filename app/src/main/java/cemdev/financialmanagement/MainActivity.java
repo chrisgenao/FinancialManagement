@@ -1,8 +1,12 @@
 package cemdev.financialmanagement;
 
+import android.app.Dialog;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -50,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
     public void showMessage(View v){
             if(v.getId() == R.id.button)
             {
@@ -61,5 +66,9 @@ public class MainActivity extends AppCompatActivity {
         {
             Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
         }
+
+    public void OpenIngreso(){
+
+    }
 
 }

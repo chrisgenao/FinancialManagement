@@ -4,4 +4,6 @@
     <string name="action_rIngresos">Registrar Ingreso</string>
     <string name="nuevo_gasto">Nuevo Gasto</string>
     <string name="nuevo_ingreso">Nuevo Ingreso</string>
+    <string name="cantidad_a_ingresar">Cantidad a Ingresar:</string>
+    <string name="cantidad">Cantidad</string>
 </resources>

@@ -36,15 +36,17 @@
 
         <Button
             android:layout_width="138dp"
-            android:layout_height="122dp"
+            android:layout_height="103dp"
             android:text="@string/nuevo_ingreso"
             android:id="@+id/button"
             android:layout_gravity="right|bottom"
-            android:background="@android:color/holo_green_light" />
+            android:background="@android:color/holo_green_light"
+            android:clickable="true"
+            android:onClick="showMessage" />
 
         <Button
             android:layout_width="138dp"
-            android:layout_height="122dp"
+            android:layout_height="103dp"
             android:text="@string/nuevo_gasto"
             android:id="@+id/button2"
             android:layout_gravity="left|bottom"
