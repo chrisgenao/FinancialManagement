@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showMessage(View v){
-            if(v.getId() == R.id.imageButton)
+            if(v.getId() == R.id.button)
             {
                 MessageBox("Hello World");
             }
